@@ -1,10 +1,9 @@
 // Your JS goes here
-const body = document.body.classList.add('container')
+
 
 function makeSquares ()  {
     const div = document.createElement('div');
     const body = document.getElementsByTagName('body');
-    div.className = 'square';
     div.style.backgroundColor = 'black';
     div.style.width = '11.1%';
     div.style.height = '11.1%';
@@ -24,4 +23,7 @@ function createBoard (num)  {
     }
 }
 console.log(makeSquares())
-createBoard(100)
+createBoard(108)
+
+
+
