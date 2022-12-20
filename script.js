@@ -24,6 +24,6 @@ function createBoard (num)  {
 }
 console.log(makeSquares())
 createBoard(108)
-
+document.getElementById
 
 
